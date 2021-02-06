@@ -5,7 +5,7 @@ const NavBar = () => {
 			<nav className='navbar navbar-expand-lg navbar-dark bg-dark nav-height '>
 				<div className='container'>
 					<Link className='navbar-brand ' to='/'>
-						Hamara News
+						<i className='fas fa-newspaper'></i> Hamara News
 					</Link>
 					<button
 						className='navbar-toggler'
