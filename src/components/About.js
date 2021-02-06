@@ -1,3 +1,4 @@
+import Footer from './footer';
 import NavBar from './NavBar';
 const About = () => {
 	return (
@@ -40,6 +41,7 @@ const About = () => {
 					reprehenderit illum iste? Nemo recusandae deleniti reiciendis.
 				</p>
 			</div>
+			<Footer />
 		</div>
 	);
 };

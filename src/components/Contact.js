@@ -1,3 +1,4 @@
+import Footer from './footer';
 import NavBar from './NavBar';
 
 const Contact = () => {
@@ -36,6 +37,7 @@ const Contact = () => {
 					Submit
 				</button>
 			</form>
+			<Footer />
 		</div>
 	);
 };

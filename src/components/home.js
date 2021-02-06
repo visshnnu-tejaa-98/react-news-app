@@ -1,6 +1,7 @@
 import NavBar from './NavBar';
 import { useState } from 'react';
 import Article from './Article';
+import Footer from './footer';
 const HomePage = () => {
 	let category = [
 		'automobiles',
@@ -100,6 +101,7 @@ const HomePage = () => {
 					</div>
 				</div>
 			</section>
+			<Footer />
 		</div>
 	);
 };
